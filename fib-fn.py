@@ -1,5 +1,5 @@
-last_1 = 1
-last_2 = 1
+last_1 = 1 #1
+last_2 = 1 #2
 
 def next():
     global last_1, last_2
@@ -9,6 +9,6 @@ def next():
     
     return next_fib
 
-print next()
+print next() #3
 print next()
 print next()
